@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="max-w-[1280px] mx-auto">
           <div className=" relative">
             <img src={HeroBenner} alt="" className='w-full h-[691px]'/>
-            <div className="absolute top-[112px] right-[290px] flex flex-col items-center">
+            <div className="absolute top-[112px] left-1/2 -translate-x-1/2 flex flex-col items-center">
               <h1 className='text-5xl font-semibold text-white mb-8 w-[510px] text-center'>A Digital Product Studio
                 that will Work</h1>
               <div className="border px-[30px] py-[18px] bg-[#24242480] border-[#262626] w-[724px] mb-10">
