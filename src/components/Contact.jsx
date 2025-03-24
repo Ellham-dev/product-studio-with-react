@@ -2,7 +2,13 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+    <section>
+      <div className="max-w-[1280px]">
+        
+      </div>
+    </section>
+    </>
   )
 }
 
