@@ -1,6 +1,5 @@
 import React from 'react'
 import QuestionBenner from '/QuestionBenner.png'
-import FAQAccordion from './FAQaccording'
 const Question = () => {
   return (
     <>
@@ -20,7 +19,6 @@ const Question = () => {
 
         </div>
         <div className="">
-          <FAQAccordion/>
         </div>
       </section>
     </>
