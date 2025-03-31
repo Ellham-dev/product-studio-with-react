@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '/Logo.png'
 import SquareUp from '/SquareUp.png'
 import Button from './Button'
+import { NavLink } from 'react-router'
 
 const Header = () => {
     return (
@@ -15,12 +16,24 @@ const Header = () => {
                         </div>
                         <div className="text-[#E6E6E6]">
                             <ul className='flex items-center gap-x-6 text-sm leading-[150%] font-medium'>
-                                <li>Home</li>
-                                <li>Services</li>
-                                <li>Work</li>
-                                <li>Process</li>
-                                <li>About</li>
-                                <li>Careers</li>
+                            <li><NavLink style={({ isActive }) => ({
+                                    color: isActive ? "blue" : "white", fontWeight: isActive ? "" : ""
+                                })} to="/">Home</NavLink></li>
+                                <li><NavLink style={({ isActive }) => ({
+                                    color: isActive ? "blue" : "white", fontWeight: isActive ? "medium" :''
+                                })} to="service">Services</NavLink></li>
+                                <li><NavLink style={({ isActive }) => ({
+                                    color: isActive ? "blue" : "white", fontWeight: isActive ? "medium" :''
+                                })} to="work">Work</NavLink></li>
+                                <li><NavLink style={({ isActive }) => ({
+                                    color: isActive ? "blue" : "white", fontWeight: isActive ? "medium" :''
+                                })} to="process">Process</NavLink></li>
+                                <li><NavLink style={({ isActive }) => ({
+                                    color: isActive ? "blue" : "white", fontWeight: isActive ? "medium" :''
+                                })} to="about">About</NavLink></li>
+                                <li><NavLink style={({ isActive }) => ({
+                                    color: isActive ? "blue" : "white", fontWeight: isActive ? "medium" :''
+                                })} to="careers">Careers</NavLink></li>
                             </ul>
                         </div>
                         <div className="">
