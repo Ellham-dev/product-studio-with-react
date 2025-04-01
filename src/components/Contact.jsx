@@ -24,19 +24,24 @@ const Contact = () => {
             </div>
             <div className="flex items-center gap-x-2.5 w-[323px]">
             <input type="checkbox" className=''/>
-            <p className='text-base leading-[150%] text-white'>Web Design</p>
+            <p className='text-base leading-[150%] text-white'>Collaboration</p>
             </div>
             <div className="flex items-center gap-x-2.5 w-[323px]">
             <input type="checkbox" className=''/>
-            <p className='text-base leading-[150%] text-white'>Web Design</p>
+            <p className='text-base leading-[150%] text-white'>Mobile App Design</p>
             </div>
             <div className="flex items-center gap-x-2.5 w-[323px]">
             <input type="checkbox" className=''/>
-            <p className='text-base leading-[150%] text-white'>Web Design</p>
+            <p className='text-base leading-[150%] text-white'>Others</p>
             </div>
             </div>
           </div>
+          <div className="border border-[#262626] w-full bg-[#242424] rounded-lg px-[30px] py-5">
+          <h6 className='text-lg leading-[150%] font-medium text-white mb-5'>Your Message</h6>
+          <input type="text" placeholder='Type here' className='text-base leading-[150%] text-[#656567] border-b border-[#333333] w-full outline-none pb-1'/>
         </div>
+        </div>
+        
       </section>
     </>
   )
