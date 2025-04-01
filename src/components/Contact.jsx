@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 const Contact = () => {
   return (
@@ -38,7 +39,10 @@ const Contact = () => {
           </div>
           <div className="border border-[#262626] w-full bg-[#242424] rounded-lg px-[30px] py-5">
           <h6 className='text-lg leading-[150%] font-medium text-white mb-5'>Your Message</h6>
-          <input type="text" placeholder='Type here' className='text-base leading-[150%] text-[#656567] border-b border-[#333333] w-full outline-none pb-1'/>
+          <input type="text" placeholder='Type here' className='text-base leading-[150%] text-[#656567] border-b border-[#333333] w-full outline-none pb-1 mb-10'/>
+          <div className="grid place-content-center">
+        <button className='px-[30px] py-3 bg-[#9EFF00] text-sm leading-[150%] font-medium text-[#262626] rounded-lg'>Submit</button>
+    </div>
         </div>
         </div>
         
