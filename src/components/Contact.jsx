@@ -19,7 +19,7 @@ const Contact = () => {
             </div>
             <div className="bg-[#242424] rounded-lg p-[30px] mb-[30px]">
               <h6 className='text-lg leading-[150%] font-medium mb-[30px] text-white'>Why are you contacting us?</h6>
-              <div className="flex flex-wrap gap-7">
+              <div className="flex flex-wrap items-center gap-7">
                 <div className="flex items-center gap-x-2.5 w-[323px]">
                   <input type="checkbox" className='' />
                   <p className='text-base leading-[150%] text-white'>Web Design</p>
