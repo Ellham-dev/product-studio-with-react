@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <>
             <section className='bg-[#1E1E1E]'>
-                <div className="">
+                <div className="border-b border-[#333333]">
                     <div className="max-w-[1280px] mx-auto flex items-center justify-between border-b border-[#262626]">
                         <div className="flex items-center gap-x-1.5 py-[22px] ">
                             <Link to={"/"}><img src={Logo} alt="" /></Link>
