@@ -3,6 +3,7 @@ import SVhero from '../components/ServiceHero'
 import DesignService from '../components/DesignService'
 import EngineeringService from '../components/EngineeringService'
 import ManagementService from '../components/ManagementService'
+import HighlightService from '../components/HighlightService'
 
 const Service = () => {
   return (
@@ -11,6 +12,7 @@ const Service = () => {
     <DesignService/>
     <EngineeringService/>
     <ManagementService/>
+    <HighlightService/>
     </>
   )
 }
