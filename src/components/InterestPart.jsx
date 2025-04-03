@@ -1,6 +1,6 @@
 import React from 'react'
 import Intarest from '/IntarestBenner.png'
-import Logo1 from '/Logo.png'
+import Logo1 from '/HighlightLogo.png'
 import Button from './Button'
 
 const InterestPart = () => {
