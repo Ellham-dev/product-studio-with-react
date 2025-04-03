@@ -1,8 +1,17 @@
 import React from 'react'
+import SVhero from '../components/ServiceHero'
+import DesignService from '../components/DesignService'
+import EngineeringService from '../components/EngineeringService'
+import ManagementService from '../components/ManagementService'
 
 const Service = () => {
   return (
-    <div>Service</div>
+    <>
+    <SVhero/>
+    <DesignService/>
+    <EngineeringService/>
+    <ManagementService/>
+    </>
   )
 }
 
