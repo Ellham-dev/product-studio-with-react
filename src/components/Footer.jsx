@@ -15,7 +15,7 @@ const Footer = () => {
       <section className='bg-[#1E1E1E]'>
         <div className="max-w-[1280px] mx-auto py-10">
           <div className=" flex items-center justify-between border-b border-[#333333] pb-10 mb-10">
-            <div className="flex items-center gap-x-1.5 py-[22px] ">
+            <div className="flex items-center gap-x-1.5 py-[22px] cursor-pointer">
               <Link to={"/"}><img src={Logo} alt="" /></Link>
               <Link to={"/"}><img src={SquareUp} alt="" /></Link>
             </div>
